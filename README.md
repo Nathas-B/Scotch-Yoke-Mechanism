@@ -28,7 +28,7 @@ All parts of the project use the same values: crank radius r = 35 mm, constant c
 
 ## Part I: Mechanism, kinematic model and DoF
 
-![Mechanism](Media/kinematic diagram.png)
+![Kinematic diagram](Media/kinematic%20diagram.jpg)
 
 ### 1.1 Links and joints
 
