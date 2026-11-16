@@ -5,13 +5,13 @@
 - **Project name:** Scotch Yoke Mechanism
 - **Purpose:** Convert crank rotation into simple harmonic linear motion; analyze it with Simscape Multibody and a built prototype
 - **Course:** 2103-322 Design of Mechanism (2569), Term Project
-- **Status:** [In progress / Completed]
-- **Last updated:** 2026-11-[dd]
+- **Status:** [In progress]
+- **Last updated:** 2026-11-[16]
 
 | Member | Student ID | Responsibility |
 | --- | --- | --- |
-| [Nathas Bunyarat] | [6730135921] | Simscape Multibody |
-| [Name] | [ID] | Prototype |
+| Nathas Bunyarat | 6730135921 | Simscape Multibody |
+| Yada Wajeenuruksakulchai | 6730122721 | Prototype |
 
 ## Structure
 
