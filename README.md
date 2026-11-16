@@ -13,7 +13,7 @@
 | [Nathas Bunyarat] | [6730135921] | Simscape Multibody |
 | [Name] | [ID] | Prototype |
 
-## Repository structure
+## Structure
 
 | Path | Purpose |
 | --- | --- |
