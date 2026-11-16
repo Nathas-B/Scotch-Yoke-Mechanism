@@ -5,8 +5,8 @@
 - **Project name:** Scotch Yoke Mechanism
 - **Purpose:** Convert crank rotation into simple harmonic linear motion; analyze it with Simscape Multibody and a built prototype
 - **Course:** 2103-322 Design of Mechanism (2569), Term Project
-- **Status:** [In progress]
-- **Last updated:** 2026-11-[16]
+- **Status:** In progress
+- **Last updated:** 2026-11-16
 
 | Member | Student ID | Responsibility |
 | --- | --- | --- |
@@ -28,6 +28,8 @@ All parts of the project use the same values: crank radius r = 35 mm, constant c
 
 ## Part I: Mechanism, kinematic model and DoF
 
+![Render](Media/Render.jpg)
+
 ![Kinematic diagram](Media/kinematic%20diagram.jpg)
 
 ### 1.1 Links and joints
@@ -48,7 +50,10 @@ All parts of the project use the same values: crank radius r = 35 mm, constant c
 
 ### 1.2 Degrees of freedom
 
-$$DOF = 3(n-1) - 2j_1 - j_2 = 3(4-1) - 2(4) = 1$$
+Using the Gruebler equation for planar mechanisms, with n = 4 links, j₁ = 4 lower pairs
+(2 revolute, 2 prismatic) and j₂ = 0 higher pairs:
+
+$$DOF = 3(n-1) - 2j_1 - j_2 = 3(4-1) - 2(4) - 0 = 1$$
 
 Counting the pin-in-slot as one higher pair gives 3(3-1) - 2(2) - 1 = 1, the same result.
 
@@ -67,7 +72,7 @@ Counting the pin-in-slot as one higher pair gives 3(3-1) - 2(2) - 1 = 1, the sam
 The model [`Scotch_Yoke_multibody.slx`](Multibody/Scotch_Yoke_multibody.slx) uses the Base, Disk and Arm
 parts from CAD. The crank joint J1 is driven with Motion = Provided by Input, using a ramp
 of 180 deg/s and its speed and acceleration supplied through a Simulink-PS Converter.
-Sensing on the yoke joint gives position, velocity and acceleration.
+Sensing on the yoke joint (J2) gives position, velocity and acceleration.
 
 With the crank angle θ measured from the vertical axis and constant ω, the reference equations are:
 
@@ -75,7 +80,7 @@ $$x = r\sin\theta, \qquad v = r\omega\cos\theta, \qquad a = -r\omega^{2}\sin\the
 
 ### Results
 
-![Render](Media/Render.jpg)
+![Position, velocity and acceleration](Media/kinematics.png)
 
 | Quantity | Reference | Simscape |
 | --- | --- | --- |
@@ -115,8 +120,3 @@ simulation. CAD files are in [`Prototype/`](Prototype/).
 ![Prototype 1](Prototype/prototype_1.jpg)
 
 ![Prototype 2](Prototype/prototype_2.jpg)
-
-| Quantity | Reference | Simulation |
-| --- | --- | --- |
-| Total stroke (mm) | 70 | 70 |
-| Crank radius r (mm) | 35 | 35 |
