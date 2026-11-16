@@ -18,15 +18,8 @@
 | Path | Purpose |
 | --- | --- |
 | `Multibody/` | Simscape Multibody model, exported data and plotting script |
-| `Multibody/Scotch_Yoke_multibody.slx` | Simscape Multibody model |
-| `Multibody/kinematics.csv` | Exported kinematics data from the simulation |
-| `Multibody/plot_script.m` | MATLAB script that plots the exported data |
 | `Media/` | Images and the simulation video |
-| `Media/Scotch_Yoke_simulation.avi` | Simulation video |
 | `Prototype/` | Fusion 360 files of the parts used to build the prototype |
-| `Prototype/Arm.f3d`, `Base.f3d`, `Disk.f3d` | Yoke (arm), base and crank disk |
-| `Prototype/Scotch Yoke.f3d` | Full assembly |
-| `Prototype/prototype_1.jpg`, `prototype_2.jpg` | Photos of the built prototype |
 
 ## Shared parameters
 
