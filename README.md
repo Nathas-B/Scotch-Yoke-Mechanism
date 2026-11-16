@@ -26,6 +26,7 @@
 | `Prototype/` | Fusion 360 files of the parts used to build the prototype |
 | `Prototype/Arm.f3d`, `Base.f3d`, `Disk.f3d` | Yoke (arm), base and crank disk |
 | `Prototype/Scotch Yoke.f3d` | Full assembly |
+| `Prototype/prototype_1.jpg`, `prototype_2.jpg` | Photos of the built prototype |
 
 ## Shared parameters
 
@@ -114,7 +115,11 @@ simulation. CAD files are in [`Prototype/`](Prototype/).
 | Crank disk | Green | `Disk.f3d` |
 | Yoke (arm) | Red | `Arm.f3d` |
 
-[Insert prototype photos here]
+### Prototype photos
+
+![Prototype 1](Prototype/prototype_1.jpg)
+
+![Prototype 2](Prototype/prototype_2.jpg)
 
 | Quantity | Reference | Simulation | Prototype |
 | --- | --- | --- | --- |
