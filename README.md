@@ -35,11 +35,9 @@ All parts of the project use the same values: crank radius r = 35 mm, constant c
 
 ## Part I: Mechanism, kinematic model and DoF
 
-![Mechanism](Media/mechanism.png)
+![Mechanism](Media/kinematic diagram.png)
 
 ### 1.1 Links and joints
-
-The mechanism is an R-R-P-P chain with 4 links, or 3 links if the pin-in-slot is counted as one joint.
 
 | Link | Name | Part |
 | --- | --- | --- |
