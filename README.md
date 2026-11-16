@@ -10,8 +10,8 @@
 
 | Member | Student ID | Responsibility |
 | --- | --- | --- |
-| [Name] | [ID] | Simscape Multibody |
-| [Name] | [ID] | Prototype (A4 wall-mounted model) |
+| [Nathas Bunyarat] | [6730135921] | Simscape Multibody |
+| [Name] | [ID] | Prototype |
 
 ## Repository structure
 
