@@ -41,10 +41,10 @@ All parts of the project use the same values: crank radius r = 35 mm, constant c
 
 | Joint | Type | Connects |
 | --- | --- | --- |
-| A | Revolute | Ground – Crank |
-| B | Revolute | Crank – Block |
-| C | Prismatic | Block – Yoke (slot) |
-| D | Prismatic | Yoke – Ground (guides) |
+| O2 | Revolute | Ground – Crank |
+| A | Revolute | Crank – Block |
+| B | Prismatic | Block – Yoke (slot) |
+| O4 | Prismatic | Yoke – Ground (guides) |
 
 ### 1.2 Degrees of freedom
 
