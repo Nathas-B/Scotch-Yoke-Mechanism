@@ -75,7 +75,7 @@ $$x = r\sin\theta, \qquad v = r\omega\cos\theta, \qquad a = -r\omega^{2}\sin\the
 
 ### Results
 
-![Kinematics results](Media/kinematics.png)
+![Render](Media/Render.jpg)
 
 | Quantity | Reference | Simscape |
 | --- | --- | --- |
@@ -87,7 +87,7 @@ $$x = r\sin\theta, \qquad v = r\omega\cos\theta, \qquad a = -r\omega^{2}\sin\the
 The exported data is in [`kinematics.csv`](Multibody/kinematics.csv) and is plotted by
 [`plot_script.m`](Multibody/plot_script.m).
 
-Simulation video: [`Scotch_Yoke_simulation.avi`](Media/Scotch_Yoke_simulation.avi)
+Simulation video: [Mechanism.avi](Media/Mechanism.avi)
 
 ### How to run
 
@@ -112,7 +112,7 @@ simulation. CAD files are in [`Prototype/`](Prototype/).
 
 ![Prototype 2](Prototype/prototype_2.jpg)
 
-| Quantity | Reference | Simulation | Prototype |
-| --- | --- | --- | --- |
-| Total stroke (mm) | 70 | 70 | [measure] |
-| Crank radius r (mm) | 35 | 35 | [measure] |
+| Quantity | Reference | Simulation |
+| --- | --- | --- |
+| Total stroke (mm) | 70 | 70 |
+| Crank radius r (mm) | 35 | 35 |
