@@ -87,7 +87,11 @@ $$x = r\sin\theta, \qquad v = r\omega\cos\theta, \qquad a = -r\omega^{2}\sin\the
 The exported data is in [`kinematics.csv`](Multibody/kinematics.csv) and is plotted by
 [`plot_script.m`](Multibody/plot_script.m).
 
-Simulation video: [Mechanism.avi](Media/Mechanism.avi)
+### Simulation
+
+![Mechanism animation](Media/Mechanism.gif)
+
+Full video: [Mechanism.avi](Media/Mechanism.avi)
 
 ### How to run
 
