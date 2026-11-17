@@ -3,10 +3,10 @@
 ## Project overview
 
 - **Project name:** Scotch Yoke Mechanism
-- **Purpose:** Convert crank rotation into simple harmonic linear motion; analyze it with Simscape Multibody and a built prototype
-- **Course:** 2103-322 Design of Mechanism (2569), Term Project
-- **Status:** In progress
-- **Last updated:** 2026-11-16
+- **Purpose:** Convert crank rotation into linear motion
+- **Course:** 2103-322 Design of Mechanism (2569)
+- **Status:** Completed
+- **Last updated:** 2026-11-17
 
 | Member | Student ID | Responsibility |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ $$x = r\sin\theta, \qquad v = r\omega\cos\theta, \qquad a = -r\omega^{2}\sin\the
 | --- | --- | --- |
 | Period (s) | 2.000 | 2.000 |
 | Amplitude of x (mm) | 35 | 35.000 |
-| Peak v (mm/s) | 110.0 | ≈ 110 |
+| Peak v (mm/s) | 110.0 |  110 |
 | Peak a (mm/s²) | 345.4 | 345.4 |
 
 The exported data is in [`kinematics.csv`](Multibody/kinematics.csv) and is plotted by
